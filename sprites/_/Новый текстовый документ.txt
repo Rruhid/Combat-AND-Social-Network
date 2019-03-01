@@ -1,0 +1,39 @@
+<script>
+				$(document).keydown(function(event){
+  var key = event.which;
+    switch(key)
+    {
+      case 37:
+            $(document).ready(function(){
+   		location.href="?ne=sola";  
+   
+  });
+      break;
+      case 38:
+         $(document).ready(function(){
+   		location.href="?ne=yux"; 
+   		  }); 
+      break;
+      case 39:
+         $(document).ready(function(){
+   		location.href="?ne=saga";  
+   		  });
+      break;
+      case 40:
+          $(document).ready(function(){
+   		location.href="?ne=awagi"; 
+   		  }); 
+      break;
+      case 90:
+          $(document).ready(function(){
+   		location.href="?ne=sol"; 
+   		  }); 
+      break;
+       case 88:
+          $(document).ready(function(){
+   		location.href="?ne=sag"; 
+   		  }); 
+      break;
+    }
+}); 
+ </script>
